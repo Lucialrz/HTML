@@ -1,0 +1,292 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+div.principal{
+	width: 960px;
+	margin: 10px auto 0;
+	padding: 0 5px;
+	overflow: hidden;
+	font-family: Arial, Helvetica, sans-serif;
+	box-sizing: border-box;
+}
+
+hr{
+	border: none;
+	background-color: #666;
+	color: #666;
+	height: 1px;
+	width: 80%;
+	clear: both;
+	margin-left: 30px;
+}
+
+/*FIN MENU*/
+/*CABECERA*/
+#cabecera{
+	height: 160px;
+	width: 100%;
+	background-color: #E4B90A;
+	clear: both;
+}
+
+#logo{
+	float: left;
+	height: 60px;
+	width: 290px;
+	margin-top: 50px;
+}
+/*MENU*/
+#menu{
+	width: 960px;
+	clear: both;
+}
+#boton{
+	padding: 0;
+	width: 960px;
+	float: left;
+	margin-bottom: 5px;
+}
+
+#boton li{
+	display:inline;
+}
+
+#boton li a{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	text-decoration: none;
+	float: left;
+	background-color: #FF6600;
+	color: #fff;
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-left: 40px;
+}
+
+#boton li a:hover{
+	background-color: #E4B90A;
+	margin-top: -2px;
+	padding-bottom: 12px;
+}
+
+#boton li a:visited{
+	text-decoration:none;
+	padding:10px;
+	color:#fff;
+}
+
+h1{
+	font-size: 17px;
+	font-weight: bold;
+	color: #333;
+	text-decoration: underline;
+	margin-bottom: 3px;
+	clear: both;
+}
+div.fila1{
+	width: 960px;
+	margin: 10px auto 0;
+	padding: 0 5px;
+	overflow: hidden;
+	font-family: Arial, Helvetica, sans-serif;
+	box-sizing: border-box;
+}
+
+div.destacada{
+	width: 310px;
+	margin: 0 10px 10px 0;
+	float: left;
+	position: relative;
+}
+div.destacada img{
+	width:310px;
+	display: block;
+}
+
+/*div.destacadaimagen img{
+	width: 310px;
+	border: 1px;
+	border-color: #666;
+	border-right-style: solid;
+	float: left;
+	margin-right: 8px;
+}*/
+
+div.destacada h2{
+	width: 100%;
+	background-color: rgba(255,255,255,0.75);
+	padding: 5px;
+	font-weight: bold;
+	font-size: 18px;
+	position: absolute;
+	bottom: 0;
+	box-sizing: border-box;
+}
+
+div.last{
+	margin-right: 0;
+}
+/*PUBLICIDAD2*/
+div.publicidad2{
+	height: 200px;
+	width: 960px;
+}
+
+div.publicidad2 img{
+	width: 960px;
+	display: block;
+	}
+/*CONTENEDOR DE BANNER*/
+div.contenedor{
+	width: 635px;
+	margin: 10px 0;
+	padding: 0 5px;
+	overflow: hidden;
+	font-family: Arial, Helvetica, sans-serif;
+	box-sizing: border-box;
+	float: left;
+}
+
+	
+div.bann {
+	width: 635px;
+	float: left;
+	position: relative;
+	margin-top: 0;
+	margin-right: 10px;
+	margin-left: 0;
+}
+div.bann img{
+	width:635px;
+	display: block;
+}
+div.bann h2{
+	width: 70%;
+	padding: 5px;
+	margin: 0;
+	box-sizing: border-box;
+	font-weight: bold;
+	color: #FFF;
+	font-size: 54px;
+	position: absolute;
+	top: 0;
+}
+/*CONTENEDOR DE BANNER PIE*/
+div.bancabecera{
+	width: 150px;
+	float: left;
+	color: #FFF;
+	background-color: #F00;
+	font-size: 15px;
+	padding: 5px;
+	height: 20px;
+	clear: both;
+}
+
+div.bannpieprincipal{
+	width: 635px;
+	float: left;
+	color: #FFF;
+	background-color: #F00;
+	font-size: 20px;
+	padding: 5px;
+	height: 50px;
+	margin-bottom: 8px;
+
+}
+div.bannpie p{
+	font-size: 14px;
+	margin-top: 5px;
+	color: #666;
+	line-height: 20px;
+	}
+	
+div.bannpie {
+	width: 610px;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 0;
+	margin-left: 0;
+	font-size: 20px;
+}
+div.bannpie img{
+	width: 220px;
+	display: block;
+	height: 120px;
+	float: left;
+	margin-bottom: 10px;
+	margin-right: 8px;
+}
+div.bannpie h2{
+	width: 100%;
+	box-sizing: border-box;
+	font-weight: bold;
+	font-size: 18px;
+	margin-bottom: 5px;
+	line-height: 25px;
+}
+/*PUBLICIDAD LADO DERECHO*/
+div.publicidad{
+	height:auto;
+	width: 305px;
+	margin: 10px 0 0 0;
+	overflow: hidden;
+	float:right;
+}
+div.publicidad img{
+	width:315px;
+	display: block;
+}
+
+div.youtube{
+	width: 315;
+	height: 150;
+	background-color: #CCC;
+	padding: 2px;
+}
+
+.youtube li{
+}
+
+.youtube li a{
+	font-size: 13px;
+	text-decoration: none;
+}
+
+.youtube h2{
+	font-size: 13px;
+	font-weight: bolder;
+	color: #F00;
+
+	margin-top: 5.px;
+	margin-left: 3px;
+	margin-bottom: 3px;
+	margin-top: 5px;
+}
+
+#pie{
+	height: 300px;
+	width: 100%;
+	background-color: #E4B90A;
+	clear: both;
+	padding-right: 50px;
+	padding-left: 50px;
+}
+
+#pie img{
+	background-position: center center;
+	margin-top: 20px;
+	margin-bottom: 15px;
+	margin-left: 450px;
+}
+#pie p{
+	font-size: 10px;
+	color: #333;
+	text-align: center;
+	line-height: 25px;
+}
